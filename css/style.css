@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+  background-color: purple;
+  padding: 20px;
+  margin: 20px;
+}
+.header{
+  top:0;
+  height: 300px;
+  width:100%;
+  margin: 0;
+}
+section{
+  background-color: green;
+  width: 50%;
+  height:100%;
+  margin-left: 25%;
+  border: solid teal 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  overflow: auto;
+}
+.div2{
+  float: left;
+  background-color: yellow;
+  width: 25%;
+  max-width: 25%;
+  height: 100%;
+  margin-left: 0;
+  border: solid teal 20px;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  overflow: auto;
+}
+.navi{
+  float: right;
+  background-color: orange;
+  width: 25%;
+  height: 100%;
+  margin-right: 0;
+  border: solid teal 20px;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+}
+#div1{
+  position: absolute;
+  left: 26%;
+  width: 48%;
+  margin-right: 25%;
+  padding: 5px;
+  max-width: 96%;
+}
+#pic{
+  position: relative;
+  text-align: center;
+}
+ul{
+  text-align: left;
+  margin-left: 20%;
+  padding: 0;
+}
+#favor{
+  position: absolute;
+  left: 26%;
+  width: 48%;
+  margin-right: 25%;
+  padding: 5px;
+  max-width: 96%;
+}
+#table{
+  position: relative;
+  left: 30%;
+  width: 50%;
+}
+#form{
+  position: relative;
+  left:30%;
+  bottom: 50%;
+  width: 50%;
+}
+h1{
+  color:navy;
+}
+h2{
+  color:navy;
+}
+h3{
+  color:navy;
+}
+p{
+  color:blue;
+  font-style: oblique;
+  font-family: arial;
+}
+input[type="button"]{
+  font-weight: 400;
+}
+input[type="button"]:hover{
+  color: red;
+  font-weight: 400;
+}
+input[type="button"]:focus{
+  border: solid 2px;
+  background-color: green;
+  font-weight: 400;
+}
